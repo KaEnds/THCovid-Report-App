@@ -1,0 +1,28 @@
+.displaygraph{
+    min-width: 50%;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.displaygraph h1{
+    padding-bottom: 30px;
+}
+
+.displaygraph p{
+    padding-bottom: 20px;
+}
+
+.graphcontain *{
+    padding-bottom: 100px;
+}
+
+.selectdate{
+    margin: auto;
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+

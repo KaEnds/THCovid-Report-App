@@ -1,0 +1,28 @@
+.content{
+    padding: 10%;
+    color: white;
+    cursor: pointer;
+}
+.content *{
+    cursor: pointer;
+}
+
+.content p{
+    font-size: 4em;
+    
+}
+
+.content p span{
+    font-size: large;
+}
+
+.content:hover{
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from{transform: scale(1);}
+    to{transform: scale(1.05);}
+}

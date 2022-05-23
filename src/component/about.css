@@ -1,0 +1,39 @@
+.about-page{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.about-page h1{
+    margin-bottom: 50px;
+}
+
+.about-page img{
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.about-page .bottomimg{
+    margin-top: 100px;
+    width: 500px;
+}
+
+.about-page p{
+    text-align: justify;
+    text-indent: 50px;
+    padding: 20px;
+}
+
+.about-page h2{
+    text-align: start;
+    padding-left: 20px;
+}
+
+.about-page h2::before{
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/29/07/54/coronavirus-5107715_960_720.png');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}

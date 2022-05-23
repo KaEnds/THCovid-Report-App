@@ -1,0 +1,43 @@
+.home-header{
+    margin-left: 60px;
+    padding-top: 60px;
+    
+    
+}
+
+.home-header h1{
+    margin-bottom: 30px;
+}
+
+.home-header h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home-header h3::before{
+    content: '';
+    background-size: 20px;
+    background-color: black;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+}
+
+.covid-display{
+    width: 90%;
+    margin: auto;
+    height: 370px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-column-gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.covid-display > div{
+    border-radius: 5px;
+}
+
+
+

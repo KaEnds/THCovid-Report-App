@@ -1,0 +1,26 @@
+
+.covid-table table{
+    border: 2px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    
+    
+}
+
+.covid-table h1{
+    padding: 30px;
+}
+
+.covid-table h3{
+    padding: 20px;
+}
+
+.covid-table table th,td{
+    border: 1px solid rgb(116, 112, 112);
+    padding: 10px;
+}
+
+.alltable{
+    display: flex;
+    align-items: flex-start;
+}

@@ -1,0 +1,47 @@
+.data-content{
+    margin-top: 300px;
+    min-width: 70%;
+    max-width: 70%;
+    margin-left: 10%;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.homegraph{
+    position: relative;
+    width: 50%;
+}
+
+.dataicon{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+.data-content img{
+    width: 100%;
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    from{opacity: 0;}
+    to{opacity: 1;}
+    
+}
+
+.textcontent{
+    text-align: start;
+}
+
+.textcontent *{
+    padding-bottom: 30px;
+}

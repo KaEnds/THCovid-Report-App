@@ -1,0 +1,105 @@
+.App-header{
+    position: fixed;
+    border: 1px solid black;
+    width: 60px;
+    height: 100vh;
+    text-align: start;
+    overflow-x: hidden;
+    background-color: #3a4047;
+    color: #3a4047;
+    /* animation: closeApp 0.1s; */
+    transition-delay: 1s;
+    box-shadow: 4px 0px 10px rgb(0, 0, 0, 0.2);
+    animation-fill-mode: forwards;
+    z-index: 10;
+
+}
+
+.icon-container{
+    position: absolute;
+    padding-top: 23px;
+    width: 45px;
+    top: 5px;
+    left: 17px;
+    min-height: 350px;
+    color: rgb(255, 255, 255);
+}
+
+.container1{
+    padding-bottom: 63px;
+}
+
+.allcontainer *{
+    padding-bottom: 25px;
+}
+
+.icon-container *{
+    height: 1.7em;
+    width: 1.7em;
+}
+
+.App-header:hover{
+    animation: openApp 0.5s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes openApp {
+from{
+    color: #3a4047;
+    width: 60px;
+}
+to{
+    color: white;
+    width: 270px;
+}
+}
+
+@keyframes closeApp {
+from{
+    color: white;
+    width: 270px;
+}
+to{
+    color: #3a4047;
+    width: 60px;
+}
+}
+
+.App-header h1{
+    padding-left: 52px;
+    margin: 20px;
+    cursor: pointer;
+    min-width: 230px;
+}
+
+.App-header ul{
+    text-align: start;
+    padding: 10px;
+    min-width: 230px;
+
+}
+
+.App-header ul li{
+    list-style-type: none;
+    font-size: larger;
+    cursor: pointer;
+    padding: 10px 10px 10px 60px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+
+.App-header ul li:hover{
+    background-color: #2a2f35;
+}
+
+.UnLink{
+    text-decoration: none;
+    color: white;
+
+}
+
+.flag{
+    width: 30px;
+    height: 25px;
+}
