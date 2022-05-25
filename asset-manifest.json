@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/THCovid-Report-App/static/css/main.9ced8ee3.css",
+    "main.js": "/THCovid-Report-App/static/js/main.bb28cfab.js",
+    "static/js/787.64c58a66.chunk.js": "/THCovid-Report-App/static/js/787.64c58a66.chunk.js",
+    "index.html": "/THCovid-Report-App/index.html",
+    "main.9ced8ee3.css.map": "/THCovid-Report-App/static/css/main.9ced8ee3.css.map",
+    "main.bb28cfab.js.map": "/THCovid-Report-App/static/js/main.bb28cfab.js.map",
+    "787.64c58a66.chunk.js.map": "/THCovid-Report-App/static/js/787.64c58a66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ced8ee3.css",
+    "static/js/main.bb28cfab.js"
+  ]
+}
