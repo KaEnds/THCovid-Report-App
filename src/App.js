@@ -4,7 +4,7 @@ import Homepage from './component/homepage.js'
 import { useEffect, useState } from 'react'
 import filterData from './component/fliterdata';
 import Graph from './component/graph.js'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import Province from './component/province';
 import About from './component/about';
 
@@ -41,7 +41,7 @@ function App() {
   }, [])
 
   return (
-    <Router>
+    <Router basename='/THCovid-Report-App'>
       <div className="App">
         <Slidebar  />
       <Switch>

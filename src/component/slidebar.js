@@ -21,22 +21,22 @@ function Slidebar(){
             <h1><span><Flags.TH title="United States" className="flag"/></span>  Thailand</h1>
             <ul>
                 <li onClick={() => window.location.reload()}>
-                    <NavLink to='/' exact className='UnLink' activeClassName='Link'>
+                    <NavLink to='https://kaends.github.io/THCovid-Report-App/' exact className='UnLink' activeClassName='Link'>
                         Covid daily report
                     </NavLink>
                 </li>
                 <li onClick={() => window.location.reload()}>
-                    <NavLink to='/graph' exact className='UnLink' activeClassName='Link'>
+                    <NavLink to='https://kaends.github.io/THCovid-Report-App/#/graph' exact className='UnLink' activeClassName='Link'>
                         Thai-covid graph
                     </NavLink>
                 </li>
                 <li onClick={() => window.location.reload()}>
-                    <NavLink to='/province' exact className='UnLink' activeClassName='Link'>
+                    <NavLink to='https://kaends.github.io/THCovid-Report-App/#/province' exact className='UnLink' activeClassName='Link'>
                         Covid situation
                     </NavLink>
                 </li>
                 <li onClick={() => window.location.reload()}>
-                <NavLink to='/about' exact className='UnLink' activeClassName='Link'>
+                <NavLink to='https://kaends.github.io/THCovid-Report-App/#/about' exact className='UnLink' activeClassName='Link'>
                         About
                     </NavLink>
                 </li>
