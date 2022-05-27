@@ -1,4 +1,4 @@
-#Thailand covied reporter
+# Thailand covied reporter
 Veiw project : https://kaends.github.io/THCovid-Report-App/
 
 this website not support moblie responsive
