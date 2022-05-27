@@ -1,7 +1,7 @@
 #Thailand covied reporter
 Veiw project : https://kaends.github.io/THCovid-Report-App/
 
-this website not subport moblie responsive
+this website not support moblie responsive
 
 # Getting Started with Create React App
 
