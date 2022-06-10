@@ -1,3 +1,8 @@
+# Thailand covied reporter
+Veiw project : https://kaends.github.io/THCovid-Report-App/
+
+this website not support moblie responsive
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
