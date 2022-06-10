@@ -1,9 +1,25 @@
+.table-layout{
+    margin-left: 120px;
+    margin-right: 60px;
+}
 
 .covid-table table{
     border: 2px solid black;
     margin: auto;
     border-collapse: collapse;
     
+    
+}
+
+.alltable{
+    width: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+
+.alltable table{
+    min-width: 800px;
+    max-width: 800px;
     
 }
 

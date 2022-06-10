@@ -1,3 +1,7 @@
+.graph-layout{
+    margin-left: 60px;
+}
+
 .displaygraph{
     min-width: 50%;
     max-width: 70%;
@@ -16,6 +20,11 @@
 
 .graphcontain *{
     padding-bottom: 100px;
+
+}
+
+.graphcontain > canvas{
+    min-height: 500px;
 }
 
 .selectdate{

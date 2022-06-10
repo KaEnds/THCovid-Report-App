@@ -39,5 +39,12 @@
     border-radius: 5px;
 }
 
-
+@media screen and (max-width: 1300px) {
+    .covid-display{
+        grid-template-columns: 400px;
+        grid-template-rows:370px 370px 370px ;
+        grid-row-gap: 20px;
+    }
+    
+}
 
