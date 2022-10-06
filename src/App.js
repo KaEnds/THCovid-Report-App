@@ -34,6 +34,7 @@ function App() {
       fetch('https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces').then((response) => response.json())
     ])
     .then(allResponses => {
+      console.log(allResponses)
       setGraphdata([...allResponses[0], ...allResponses[1]])
       setData(allResponses[2])
       setProvince(allResponses[3])
